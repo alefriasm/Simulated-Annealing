@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Archivos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border: 1px solid #ddd;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mis Archivos</h1>
+    <p>A continuación puedes ver y descargar mis archivos:</p>
+
+    <h2>1. Archivo 1</h2>
+    <a href="SA.cc" download>Descargar archivo1.cc</a>
+    <pre>
+        <!-- Muestra el contenido de archivo1.cc -->
+        <!-- Reemplaza esto con el contenido real del archivo -->
+        // Contenido de archivo1.cc
+        #include &lt;iostream&gt;
+        using namespace std;
+    </pre>
+
+    <h2>2. Archivo 2</h2>
+    <a href="graphb.cc" download>Descargar archivo2.cc</a>
+    <pre>
+        <!-- Muestra el contenido de archivo2.cc -->
+        // Contenido de archivo2.cc
+        int main() {
+            cout &lt;&lt; "Hola, mundo!" &lt;&lt; endl;
+        }
+    </pre>
+
+    <h2>3. Archivo 3</h2>
+    <a href="alejandra.cc" download>Descargar archivo3.cc</a>
+    <pre>
+        <!-- Muestra el contenido de archivo3.cc -->
+        // Contenido de archivo3.cc
+        return 0;
+    </pre>
+</body>
+</html>
